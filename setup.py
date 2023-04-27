@@ -7,7 +7,9 @@ setup(
     install_requires=[
         'click',
         'asciichartpy',
-        'tabulate'
+        'tabulate',
+        'termcolor',
+        'requests'
     ],
     packages=['mllineplot'],
     entry_points={
