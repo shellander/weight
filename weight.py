@@ -67,6 +67,7 @@ def setup(name, email, base_url):
             json.dump(config, f)
             click.echo(f'Configuration saved to {CONFIG_PATH}.')
     else:
+        print(response.text)
         click.echo('Failed to set up configuration')
 
 
